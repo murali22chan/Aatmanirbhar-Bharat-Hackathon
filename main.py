@@ -10,8 +10,8 @@ root.iconbitmap('Logo.ico')
 # Connec to the MySQL Server
 mydb = mysql.connector.connect(
 	host="localhost",
-	user = "root",
-	passwd = "admin123",
+	user = "",                                    #Enter Your Username
+	passwd = "",                                   #Enter Your Password
 	database = "warehouse"
 	)
 
